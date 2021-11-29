@@ -22,9 +22,9 @@ btn.addEventListener("click", () => {
 
             //appending data to HTML
             let realData = Qdata
-            document.getElementById("p1").innerHTML = ` ${realData.anime}`
-            document.getElementById("p2").innerHTML = `${realData.character}`
-            document.getElementById("p3").innerHTML = `${realData.quote}`
+            document.querySelector(".p1").innerHTML = ` ${realData.anime}`
+            document.querySelector(".p2").innerHTML = `${realData.character}`
+            document.querySelector(".p3").innerHTML = `${realData.quote}`
 
             //Error Handling
         } catch (err) {
